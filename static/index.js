@@ -47,27 +47,3 @@ document.getElementById("runScript").addEventListener("click", function() {
 
 
 
-//             event.preventDefault(); // Prevent form from refreshing the page
-
-//             let username = document.getElementById("username").value.trim();
-//             let password = document.getElementById("password").value.trim();
-
-//             fetch("http://127.0.0.1:5000/login", {
-//                 method: "POST",
-//                 headers: {
-//                     "Content-Type": "application/json"
-//                 },
-//                 body: JSON.stringify({ username: username, password: password })
-//             })
-//             .then(response => response.json())
-//             .then(data => {
-//                 console.log("login")
-//                 if (data.success) {
-//                     document.getElementById("message").innerText = "Login successful!";
-//                     window.location.href = "/take"; // Redirect to dashboard
-//                 } else {
-//                     document.getElementById("message").innerText = "Invalid credentials. Try again.";
-//                 }
-//             })
-//             .catch(error => console.error("Error:", error));
-//         });
