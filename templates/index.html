@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h2>Molicules Techinfra Pvt.Ltd</h2>
+    </div>
+    <div class="container">
+        <div class="screen">
+            <div class="screen_content">
+                <form class="login" id="loginForm">
+                    <div class="login_field">
+                        <i class='bx bxs-user'></i>
+                        <input type="text" id="username" class="login_input" placeholder="User name/Email">
+                    </div>
+                    <div class="login_field">
+                        <i class='bx bxs-lock'></i>
+                        <input type="password" id="password" class="login_input" placeholder="Password">
+                    </div>
+                    <button type="submit" class="button login_submit" id="loginButton">
+                        <span class="button_text">Log In Now</span>
+                        <i class='bx bxs-chevron-right'></i>
+                    </button>
+                    <div id="message">
+
+                    </div>
+                </form>
+                <div class="social-login">
+                    <h3>log in via</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-login_icon fab fa-instagram"></a>
+                        <a href="#" class="social-login_icon fab fa-facebook"></a>
+                        <a href="#" class="social-login_icon fab fa-twitter"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="screen_background">
+                <span class="screen_background_shape screen_background_shape4"></span>
+                <span class="screen_background_shape screen_background_shape3"></span>
+                <span class="screen_background_shape screen_background_shape2"></span>
+                <span class="screen_background_shape screen_background_shape1"></span>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="index.js"></script> -->
+    <script src="{{ url_for('static', filename='index.js') }}"></script>
+
+</body>
+
+</html>

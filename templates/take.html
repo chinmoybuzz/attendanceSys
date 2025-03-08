@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance System</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h2>Molicules Techinfra Pvt.Ltd - Attendance System</h2>
+    </div>
+    <div class="container">
+        <div class="screen">
+            <div class="screen_content">
+                <h2 class="attendance-heading">Attendance Management</h2>
+                <div class="attendance-container">
+                    <button class="button take-attendance" id="runScript">
+                        <span class="button_text">Take Attendance</span>
+                        <i class='bx bxs-chevron-right'></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="screen_background">
+                <span class="screen_background_shape screen_background_shape4"></span>
+                <span class="screen_background_shape screen_background_shape3"></span>
+                <span class="screen_background_shape screen_background_shape2"></span>
+                <span class="screen_background_shape screen_background_shape1"></span>
+            </div>
+
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='index.js') }}"></script>
+
+</body>
+
+</html>
